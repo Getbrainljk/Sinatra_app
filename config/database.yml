@@ -1,0 +1,23 @@
+development:
+  adapter: sqlite3
+  encoding: unicode
+  database: database.sql
+  pool: 2
+  username: user
+  password: pass
+
+test:
+  adapter: sqlite3
+  database: db_test
+  username: user
+  password: pass
+  host: localhost
+  port: 9393
+
+production:
+  adapter: sqlite3
+  encoding: unicode
+  database: database.sql
+  pool: 2
+  username: user
+  password: pass
